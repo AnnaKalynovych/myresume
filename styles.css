@@ -1,0 +1,254 @@
+.intro {
+    background-color: white;
+    font-family: courier new;
+    width:100%;
+    height: 100vh;
+  }
+  
+  #page {
+    width: 55%;
+    background-color: #e3edd8;
+    font-family: courier new;
+    padding: 0% 0% 10% 0%;
+    margin: 0% 0% 0% 31%;
+  }
+  
+  #navbar {
+    list-style-type: none;
+    margin: 0% 0% 0% 10%;
+    padding: 0;
+    width: 20%;
+    background-color: #f1f1f1;
+    border: 1px solid #555;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    position: fixed;
+  }
+  
+  #questionnaire {
+    margin: 10% 3% 6% 0%;
+    padding-bottom: 80px;
+    font-size: 20px;
+    text-align: center;
+    border-color: #b2d2a4;
+    border-width: 10px;
+    height: 160px;
+    width: 35%;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 0.6;
+  }
+  
+  #header {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #photo {
+    margin: 12% 0% 6% 5%;
+    width: 175px;
+    height: 225px;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 27px;
+    margin: 0% 0% 10% 0%;
+  }
+  
+  a:hover {
+    font-weight: lighter;
+    color: brown;
+  }
+  
+  h3 {
+    padding: 0% 0% 0% 3%;
+    font-size: 23px;
+    font-style: italic;
+    margin: 1% 0% 1% 0%;
+  }
+  
+  .paragraph,
+  ul {
+    padding: 0% 12% 0% 12%;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.4;
+  }
+  
+  #name {
+    font-size: 35px;
+    line-height: 0.9;
+  }
+  
+  .subtitle {
+    border-width: 5px;
+    border-color: #b2d2a4;
+    margin: 0% 10% 0% 10%;
+    padding: 0px;
+  }
+  
+  .description {
+    text-decoration: underline;
+  }
+  
+  li .cat-list {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  
+  li .cat-list:hover {
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .active1 {
+    border-bottom: 1px solid #555;
+  }
+  
+  .container * {
+    box-sizing: border-box;
+  }
+  
+  
+  .container {
+    position: relative;
+    margin: 0px 18px 20px 20px;
+  
+  }
+  
+  .mySlides {
+    display: none;
+  }
+  
+  
+  <<<<<<< HEAD
+  
+  =======
+  >>>>>>> 2466d1e934b8036c3278657a57431b34feda197a
+  .prev,
+  .next {
+    cursor: pointer;
+    position: absolute;
+    display: block;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  
+  
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  
+  .demo {
+    opacity: 0.6;
+  }
+  
+  .active,
+  .demo:hover {
+    opacity: 1;
+  }
+  
+  
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  
+  .caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+  }
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  
+  .column {
+    float: left;
+    width: 16.66%;
+  }
+  
+  img {
+    vertical-align: middle;
+  }
+  
+  
+  
+  .cursor {
+    cursor: pointer;
+  }
+  
+  
+  
+   
+   .tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: #fff;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+    bottom: 60%;
+    left: 50%;
+    margin-left: 60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  
+  .tooltip .tooltiptext ::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+  } 
