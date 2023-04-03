@@ -31,7 +31,7 @@
   }
   
   #questionnaire {
-    position: relative;
+    display: block;
     margin: 10% 3% 6% 0%;
     font-size: 20px;
     text-align: center;
