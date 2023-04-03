@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .intro {
     background-color: white;
     font-family: courier new;
@@ -27,13 +31,13 @@
   }
   
   #questionnaire {
+    position: relative;
     margin: 10% 3% 6% 0%;
-    padding-bottom: 80px;
     font-size: 20px;
     text-align: center;
     border-color: #b2d2a4;
     border-width: 10px;
-    height: 160px;
+    height: 25%;
     width: 35%;
     font-style: italic;
     font-weight: bold;
@@ -111,15 +115,12 @@
     border-bottom: 1px solid #555;
   }
   
-  .container * {
-    box-sizing: border-box;
-  }
+ 
   
   
   .container {
     position: relative;
     margin: 0px 18px 20px 20px;
-  
   }
   
   .mySlides {
@@ -248,3 +249,12 @@
     visibility: visible;
     opacity: 1;
   } 
+
+
+
+  @media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    * {
+      width: 100%;
+    }
+  }
