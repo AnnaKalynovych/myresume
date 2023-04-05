@@ -4,12 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script src="/lang.js" defer></script>
     <link rel="stylesheet" href="styles.css">
     <title>Anna Kalynovych CV</title>
   </head>
     
   <body>
- <div class="intro container ">
+ <div class="intro">
+
+
     <div>
       <ul id="navbar">
         <li class="active1"><a class="cat-list" href="#s-one">Summary</a></li>
@@ -25,8 +28,35 @@
 
     <div id="page">
 
-    <div id="header">
-      <fieldset id="questionnaire">
+    
+
+      
+      <div class="container-free">
+      <ul>
+        <li class="header-item-lang-en"><button id="en" class="translate"><img src="/English_language.png" alt="enflag"></button></li>
+        <li class="header-item-lang-pl"><button id="pl" class="translate"><img src="/Flag_of_Poland.png" alt="plflag"></button></li>
+      </ul>
+      </div>
+
+
+
+
+
+      <script src="/language.js"></script>
+
+      <div class="container">
+				<button class="header__btn header__btn_active" data-btn="en">EN</button>
+				<button class="header__btn" data-btn="pl">PL</button>
+			</div>
+
+
+
+
+
+    
+
+    <div class="header">
+      <fieldset id="questionnaire" class="item-left">
         <p id="name">Anna Kalynovych</p>
         <p id="adress">Wrocław, Poland </p>
         <p id="phone">+48 XXX XX XX XX </p>
@@ -35,12 +65,12 @@
         <a href="mailto:annakalinovich717@gmail.com" target="_blank">
         <p id="email">annakalinovich717@gmail.com</p></a>
       </fieldset>
-      <img id="photo" src="avatar.jpg" alt="photo">
+      <img id="photo" class="item-right" src="avatar.jpg" alt="photo">
     </div>
     
    <h2>Software QA Tester</h2>
    <section class="text">
-    <fieldset class="subtitle" id="s-one"><h3>Summary</h3></fieldset>
+    <fieldset class="subtitle lang" key="summary" id="s-one"  data-lang="summary"><h3>Summary</h3></fieldset>
       <p class="paragraph">
         Hey, I’m a Software QA beginner. A rapid learner with
         decent communication and presentation skills, a naturally

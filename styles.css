@@ -7,9 +7,11 @@
     font-family: courier new;
     width:100%;
     height: 100vh;
+    position: relative;
   }
   
   #page {
+    position: relative;
     width: 55%;
     background-color: #e3edd8;
     font-family: courier new;
@@ -30,6 +32,13 @@
     position: fixed;
   }
   
+  .header {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    flex-wrap: wrap;
+    }
+
   #questionnaire {
     display: block;
     margin: 10% 3% 6% 0%;
@@ -37,18 +46,12 @@
     text-align: center;
     border-color: #b2d2a4;
     border-width: 10px;
-    height: 25%;
-    width: 35%;
     font-style: italic;
     font-weight: bold;
     line-height: 0.6;
   }
   
-  #header {
-    display: flex;
-    justify-content: center;
-  }
-  
+
   #photo {
     margin: 12% 0% 6% 5%;
     width: 175px;
@@ -252,9 +255,31 @@
 
 
 
-  @media only screen and (max-width: 620px) {
-    /* For mobile phones: */
-    .intro {
-      width: 100%;
-    }
+
+
+
+  .translate {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+
+
+
+
+  .header__btn {
+    cursor: pointer;
+    color: white;
+    border: 1px solid yellowgreen;
+    padding: 10px 30px;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-size: 40px;
+    background-color: transparent;
+  }
+  
+  .header__btn_active,
+  .header__btn:hover {
+    background-color: darkblue;
   }
