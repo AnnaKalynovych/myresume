@@ -67,13 +67,13 @@ function checkActiveLangButton() {
 			break;
 		case "pl":
 			document
-				.querySelector('[data-btn="de"]')
+				.querySelector('[data-btn="pl"]')
 				.classList.add("header__btn_active");
 			break;
 
 		default:
 			document
-				.querySelector('[data-btn="ru"]')
+				.querySelector('[data-btn="en"]')
 				.classList.add("header__btn_active");
 			break;
 	}
