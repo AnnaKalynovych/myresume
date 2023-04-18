@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="styles.css">
@@ -9,48 +9,38 @@
   </head>
     
   <body>
- <div class="intro">
+ <div class="container">
 
 
-    <div>
+  <section class="grid-1">
+    <div class="left-panel">
       <ul id="navbar">
-        <li class="active1"><a class="cat-list" href="#s-one">Summary</a></li>
-        <li class="active1"><a class="cat-list" href="#s-two">Technical skills</a></li>
-        <li class="active1"><a class="cat-list" href="#s-three">Employment History</a></li>
-        <li class="active1"><a class="cat-list" href="#s-four">Education</a></li>
-        <li class="active1"><a class="cat-list" href="#s-five">Additional information</a></li>
-        <li class="active1"><a class="cat-list" href="#s-six">Certificates and courses</a></li>
-        <li class="active1"><a class="cat-list" href="#s-seven">Projects</a></li>
-        <li class="active1"><a class="cat-list" href="#s-eight">Interests</a></li>
+        <li class="active1"><a class="cat-list lng-sone" href="#s-one">Summary</a></li>
+        <li class="active1"><a class="cat-list lng-stwo" href="#s-two">Technical skills</a></li>
+        <li class="active1"><a class="cat-list lng-sthree" href="#s-three">Employment History</a></li>
+        <li class="active1"><a class="cat-list lng-sfour" href="#s-four">Education</a></li>
+        <li class="active1"><a class="cat-list lng-sfive" href="#s-five">Additional information</a></li>
+        <li class="active1"><a class="cat-list lng-ssix" href="#s-six">Certificates and courses</a></li>
+        <li class="active1"><a class="cat-list lng-sseven" href="#s-seven">Projects</a></li>
+        <li class="active1"><a class="cat-list lng-seight" href="#s-eight">Interests</a></li>
       </ul> 
     </div>
 
-    <div id="page">
+    <div id="page" class="right-panel">
 
     
-
-      <script src="lang.js" defer></script>
-      <div class="container-free">
-      <ul>
-        <li class="header-item-lang-en"><button id="en" class="translate"><img src="english_language.png" alt="enflag"></button></li>
-        <li class="header-item-lang-pl"><button id="pl" class="translate"><img src="flag_of_Poland.png" alt="plflag"></button></li>
-      </ul>
-      </div>
-
-
+      <header class="site-header">
+        <div class="container-free">
+      <select class="change-lang">
+        <option value="pl">PL</option>
+        <option value="en">EN</option>
+    </select>
+  </div>
+</header>
 
 
 
-      <script src="language.js"></script>
-
-      <div class="container">
-				<button class="header__btn header__btn_active" data-btn="en">EN</button>
-				<button class="header__btn" data-btn="pl">PL</button>
-			</div>
-
-    
-
-    <div class="header">
+    <div class="info">
       <fieldset id="questionnaire" class="item-left">
         <p id="name">Anna Kalynovych</p>
         <p id="adress">Wrocław, Poland </p>
@@ -63,99 +53,99 @@
       <img id="photo" class="item-right" src="avatar.jpg" alt="photo">
     </div>
     
-   <h2>Software QA Tester</h2>
+    <h1><span class="lng-unit">Software QA Tester</span></h1>
    <section class="text">
-    <fieldset class="subtitle lang" key="summary" id="s-one"  data-lang="summary"><h3>Summary</h3></fieldset>
-      <p class="paragraph">
+    <fieldset class="subtitle lng-sone"  id="s-one"><h3>Summary</h3></fieldset>
+      <p class="paragraph lng-pone">
         Hey, I’m a Software QA beginner. A rapid learner with
         decent communication and presentation skills, a naturally
         curious person. At the moment in my resume there’s no
         huge commercial experience in this field, but I have a
         superb desire to extend my already existing skills and
         grow as a specialist in the software quality field.</p>
-    <fieldset class="subtitle" id="s-two"><h3>Technical skills</h3></fieldset>    
-      <p class="paragraph">   
+    <fieldset class="subtitle lng-stwo" id="s-two"><h3>Technical skills</h3></fieldset>    
+      <p class="paragraph lng-ptwo">   
         <ul>
-          <li>OS/Platforms: MS Windows, Mac, Unix, iOS, Android.</li>
-          <li>Languages: fundaments of HTML, CSS, JavaScript, SQL,
+          <li class="lng-teh_one">OS/Platforms: MS Windows, Mac, Unix, iOS, Android.</li>
+          <li class="lng-teh_two" >Languages: fundaments of HTML, CSS, JavaScript, SQL,
             Markup, XML, Bash</li>
-          <li>Databases: MS Access, PostgreSQL, MySQL</li>
-          <li>Version control: git.</li>
-          <li>Tools: postman, charles proxy, iMazing, Visual studio,
+          <li class="lng-teh_three" >Databases: MS Access, PostgreSQL, MySQL</li>
+          <li class="lng-teh_four" >Version control: git.</li>
+          <li class="lng-teh_five" >Tools: postman, charles proxy, iMazing, Visual studio,
                 VSCode.</li>
-          <li>Bug tracking systems: Jira.</li>
-          <li>Browsers: Chromium Based, Firefox, Safari</li>
+          <li class="lng-teh_six" >Bug tracking systems: Jira.</li>
+          <li class="lng-teh_seven" >Browsers: Chromium Based, Firefox, Safari</li>
         </ul>
           </p>
-    <fieldset class="subtitle" id="s-three"><h3>Employment History</h3></fieldset>    
+    <fieldset class="subtitle lng-sthree" id="s-three"><h3>Employment History</h3></fieldset>    
       <p class="paragraph">
-        <p class="paragraph description">Software tester – Utest platform, (December
+        <p class="paragraph description lng-pthree">Software tester – Utest platform, (December
           2022-present)</p>
         <ul>
-          <li>Executed and designed functional and non-functional
+          <li class="lng-emp_one">Executed and designed functional and non-functional
             test cases for web & mobile apps</li>
-          <li>Reported bugs in accordance with platform standards</li>
-          <li>Performed exploratory, usability & localization testing</li>
-          <li>Used asynchronous communication with platform test
+          <li class="lng-emp_two">Reported bugs in accordance with platform standards</li>
+          <li class="lng-emp_three">Performed exploratory, usability & localization testing</li>
+          <li class="lng-emp_four">Used asynchronous communication with platform test
             leads</li>
         </ul>
-        <p class="paragraph description">Training and laboratory complex technician — Military
+        <p class="paragraph description lng-pfour">Training and laboratory complex technician — Military
           Institute (May 2021 - July 2022) Zhytomyr, Ukraine</p>
         <ul>
-          <li>Performed laboratory tests, measurements, and other
+          <li class="lng-emp_five">Performed laboratory tests, measurements, and other
             research related works.</li>
-          <li>Worked with technical documentation</li>
-          <li>Recorded and managed data.</li>
-          <li>Organized and stored required articles for tests.
+          <li class="lng-emp_six">Worked with technical documentation</li>
+          <li class="lng-emp_seven">Recorded and managed data.</li>
+          <li class="lng-emp_eight">Organized and stored required articles for tests.
             Prepared reports based on</li>
         </ul>
       </p>
-    <fieldset class="subtitle" id="s-four"><h3>Education</h3></fieldset>    
-      <p class="paragraph">
+    <fieldset class="subtitle lng-sfour" id="s-four"><h3>Education</h3></fieldset>    
+      <p class="paragraph lng-pfive">
         <ul>
-          <li>2022 Master of science in physics & astronomy, State
+          <li class="lng-ed_one">2022 Master of science in physics & astronomy, State
             University. Zhytomyr, Ukraine.</li>
-          <li>2021 Bachelor of science in physics & education, State
+          <li class="lng-ed_two">2021 Bachelor of science in physics & education, State
             University. Zhytomyr, Ukraine.</li>
-          <li>2019 Student exchange program, physics, Pomeranian
+          <li class="lng-ed-three">2019 Student exchange program, physics, Pomeranian
             Academy. Słupsk, Poland.</li>
         </ul>
       </p>
-    <fieldset class="subtitle" id="s-five"><h3>Additional information</h3></fieldset>    
-      <p class="paragraph">
+    <fieldset class="subtitle lng-sfive" id="s-five"><h3>Additional information</h3></fieldset>    
+      <p class="paragraph lng-psix">
         Languages: Ukrainian, Polish, English.
       </p>
-    <fieldset class="subtitle" id="s-six"><h3>Certificates and courses</h3></fieldset>    
-      <p class="paragraph">
+    <fieldset class="subtitle lng-ssix" id="s-six"><h3>Certificates and courses</h3></fieldset>    
+      <p class="paragraph lng-pseven">
         <ul>
-          <li>2023 Relational Database Certification <a href="https://freecodecamp.org/certification/fccb5a10001-b2a9-4a19-b8c9-5e178837d9c4/relational-database-v8" target="_blank">link</a>
+          <li class="lng-cou_one">2023 Relational Database Certification <a href="https://freecodecamp.org/certification/fccb5a10001-b2a9-4a19-b8c9-5e178837d9c4/relational-database-v8" target="_blank">link</a>
             freeCodeCamp.org</li>
-          <li>2022 Software testing basics, standards & tools Utest
+          <li class="lng-cou_two">2022 Software testing basics, standards & tools Utest
             Academy at utest.com</li>
-          <li>2022 Responsive Web Design Certification, <a href="https://freecodecamp.org/certification/fccb5a10001-b2a9-4a19-b8c9-5e178837d9c4/responsive-web-design" target="_blank">link</a>
+          <li class="lng-cou_three">2022 Responsive Web Design Certification, <a href="https://freecodecamp.org/certification/fccb5a10001-b2a9-4a19-b8c9-5e178837d9c4/responsive-web-design" target="_blank">link</a>
             freeCodeCamp.org</li>
-          <li>2022 Software testing online workshop, Portnov
+          <li class="lng-cou_four">2022 Software testing online workshop, Portnov
               Computer School.</li>
-          <li>2021 Certificate of English proficiency at the Stage 4
+          <li class="lng-cou_five">2021 Certificate of English proficiency at the Stage 4
             by Callan method, #046100, “Profi-Center”, Zhytomyr,
             Ukraine.</li>
-          <li>2020 “Fraunhofer diffraction on holes of complex
+          <li class="lng-cou_six">2020 “Fraunhofer diffraction on holes of complex
             shape”, Scientific search of young researchers, State
             University, Zhytomyr, Ukraine, certificate <a href="https://drive.google.com/file/d/1O0-u8GpXkT5cP3e0dvrvuAV5Jdq7Sj7C/view?usp=sharing" target="_blank">link</a>,
             collection of scientific articles <a href="https://drive.google.com/file/d/1K0Mq5WDtGUYLWmbgQ0TrWYcx2o0Oqn1v/view?usp=sharing" target="_blank">link</a></li>
         </ul>
       </p>
-      <fieldset class="subtitle" id="s-seven"><h3>Projects</h3></fieldset>    
-      <p class="paragraph">In this section I will add my github projects
+      <fieldset class="subtitle lng-sseven" id="s-seven"><h3>Projects</h3></fieldset>    
+      <p class="paragraph lng-peight">In this section I will add my github projects
         description.</p>
       
         
         <script src="script.js"></script>
 
-      <div class="container">
+      <div class="slide-container">
 
         <div class="tooltip">
-          <span class="tooltiptext">Click on the picture to see the project</span>
+          <span class="tooltiptext lng-tooltip">Click on the picture to see the project</span>
         
        
         <div class="mySlides ">
@@ -224,15 +214,18 @@
         </div>
       </div>
 
-      <fieldset class="subtitle" id="s-eight"><h3>Interests</h3></fieldset>    
-      <p class="paragraph">
+      <fieldset class="subtitle lng-seight" id="s-eight"><h3>Interests</h3></fieldset>    
+      <p class="paragraph lng-pnine">
         <ul>
-          <li>Reading</li>
+          <li class="lng-in_one">Reading</li>
         </ul>
       </p>
    </section>
 </div>
+</section>
  </div>
+ <script src="lang.js"></script>
+    <script src="app.js"></script>
     </body>
 </html>
 
