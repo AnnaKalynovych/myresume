@@ -7,19 +7,24 @@ const langArr = {
         "en": "Summary",
         "pl": "O mnie",
     }, 
+    "nav_one" : {
+        "en": "Summary",
+        "pl": "O mnie",
+    }, 
     "pone" :  {
         "en": " Hey, I’m a Software QA beginner. A rapid learner with decent communication and presentation skills,\
         a naturally curious person. At the moment in my resume there’s no huge commercial experience in this field, \
         but I have a superb desire to extend my already existing skills and\
         grow as a specialist in the software quality field.",
-        "pl": "Hej, jestem początkującym QA oprogramowania. Szybko uczący się z\
-        przyzwoite umiejętności komunikacyjne i prezentacyjne, naturalnie\
-        ciekawa osoba. W tej chwili w moim CV nie ma\
-        ogromne doświadczenie handlowe w tej dziedzinie, ale mam\
-        ponadprzeciętna chęć poszerzania już posiadanych umiejętności i\
-        rozwijać się jako specjalista w dziedzinie jakości oprogramowania.",
+        "pl": "Cześć, jestem początkującym testerem oprogramowania. Szybko się uczę, mam dobre umiejętności komunikacyjne i prezentacyjne,\
+        jestem osobą o naturalnej ciekawości. Na chwilę obecną moje CV nie posiada dużej komercyjnej doświadczenia w tym obszarze, ale mam świetne chęci,\
+        aby rozwijać moje już istniejące umiejętności i stać się specjalistą w dziedzinie jakości oprogramowania.",
     }, 
     "stwo" : {
+        "en": "Technical skills",
+        "pl": "Umiejętności techniczne",
+    }, 
+    "nav_two" : {
         "en": "Technical skills",
         "pl": "Umiejętności techniczne",
     }, 
@@ -59,59 +64,68 @@ const langArr = {
         "en": "Employment History",
         "pl": "Historia zatrudnienia",
     },
+    "nav_three" : {
+        "en": "Employment History",
+        "pl": "Historia zatrudnienia",
+    },
      "pthree" : {
         "en": "Software tester – Utest platform, (December\
             2022-present)",
-        "pl": "Tester oprogramowania – platforma Utest, (grudzień\
-            2022-obecnie)",
+        "pl": "Tester oprogramowania - platforma Utest (od grudnia 2022 do dzisiaj)",
     }, 
     "emp_one" : {
-        "en": "Executed and designed functional and non-functional\
-        test cases for web & mobile apps",
-        "pl": "Wykonane i zaprojektowane funkcjonalne i niefunkcjonalne\
-        przypadki testowe dla aplikacji internetowych i mobilnych",
+        "en": " I’m work on execution and design of functional and\
+        non-functional test cases for web & mobile apps.",
+        "pl": "Pracuję nad wykonaniem i projektowaniem funkcjonalnych i niefunkcjonalnych przypadków testowych dla aplikacji internetowych i mobilnych.",
     }, 
     "emp_two" : {
-        "en": "Reported bugs in accordance with platform standards",
-        "pl": "Zgłaszane błędy zgodnie ze standardami platformy",
+        "en": "At the moment, I’m a bronze grade software tester on\
+        the utest platform.",
+        "pl": "W chwili obecnej jestem testem oprogramowania na platformie utest na poziomie brązowym.",
     },
      "emp_three" : {
-        "en": "Performed exploratory, usability & localization testing",
-        "pl": "Przeprowadzałem testy eksploracyjne, użyteczności i lokalizacji",
+        "en": "I have reported around 100+ bugs in accordance with\
+        platform standards, link to example bug reports I added\
+        below.",
+        "pl": "Zgłosiłem około 100+ błędów zgodnie ze standardami platformy, link do przykładowych raportów o błędach znajduje się poniżej.",
     }, 
-    "lng-emp_four" : {
+    "emp_four" : {
+        "en": "Performed exploratory, usability & localization testing.",
+        "pl": "Wykonywałem testy eksploracyjne, użytecznościowe i lokalizacyjne.",
+    }, 
+    "emp_five" : {
         "en": "Used asynchronous communication with platform test\
-        leads",
-        "pl": "Wykorzystano komunikację asynchroniczną z testem platformy\
-        wskazówki",
+        leads.",
+        "pl": "Korzystałem z komunikacji asynchronicznej z liderami testów platformy.",
     }, 
     "pfour" : {
         "en": "Training and laboratory complex technician — Military\
         Institute (May 2021 - July 2022) Zhytomyr, Ukraine",
-        "pl": "Technik kompleksu szkoleniowego i laboratoryjnego — Wojskowy\
-        Instytut (maj 2021 - lipiec 2022) Żytomierz, Ukraina",
+        "pl": "Technik kompleksu szkoleniowo-laboratoryjnego - Wojskowy Instytut (maj 2021 - lipiec 2022) Żytomierz, Ukraina",
     },
-     "emp_five" : {
+     "emp_six" : {
         "en": "Performed laboratory tests, measurements, and other\
         research related works.",
-        "pl": "Wykonywane badania laboratoryjne, pomiary i inne\
-        prace związane z badaniami.",
-    }, 
-    "emp_six" : {
-        "en": "Worked with technical documentation",
-        "pl": "Pracował z dokumentacją techniczną",
+        "pl": "Wykonywałam testy laboratoryjne, pomiary i inne prace badawcze.",
     }, 
     "emp_seven" : {
-        "en": "Recorded and managed data.",
-        "pl": "Zarejestrowane i zarządzane dane.",
+        "en": "Worked with technical documentation.",
+        "pl": "Pracowałam z dokumentacją techniczną",
     }, 
     "emp_eight" : {
+        "en": "Recorded and managed data.",
+        "pl": "Rejestrowałam i zarządzałam danymi.",
+    }, 
+    "emp_nine" : {
         "en": "Organized and stored required articles for tests.\
-        Prepared reports based on",
-        "pl": "Organizował i przechowywał wymagane artykuły do testów.\
-        Sporządzone raporty na podstawie",
+        Prepared reports based on.",
+        "pl": "Organizowałam i przechowywałam wymagane artykuły do testów. Przygotowywałam raporty na podstawie zebranych danych.",
     }, 
     "sfour" : {
+        "en": "Education",
+        "pl": "Edukacja",
+    }, 
+    "nav_four" : {
         "en": "Education",
         "pl": "Edukacja",
     }, 
@@ -134,6 +148,10 @@ const langArr = {
         Akademia. Słupsk, Polska.",
     }, 
     "sfive" : {
+        "en": "Additional information",
+        "pl": "Dodatkowe informacje",
+    }, 
+    "nav_five" : {
         "en": "Additional information",
         "pl": "Dodatkowe informacje",
     }, 
@@ -185,6 +203,10 @@ const langArr = {
         "en": "Projects",
         "pl": "Projekty",
     }, 
+    "nav_seven" : {
+        "en": "Projects",
+        "pl": "Projekty",
+    }, 
     "peight" : {
         "en": "In this section I will add my github projects\
         description.",
@@ -193,9 +215,13 @@ const langArr = {
     }, 
     "tooltip" : {
         "en": "Click on the picture to see the project",
-        "pl": "Kliknij w obrazek, aby zobaczyć projekt",
+        "pl": "Kliknij na obrazek, aby zobaczyć projekt",
     }, 
     "seight" : {
+        "en": "Interests",
+        "pl": "Zainteresowania",
+    }, 
+    "nav_eight" : {
         "en": "Interests",
         "pl": "Zainteresowania",
     }, 
@@ -203,5 +229,9 @@ const langArr = {
         "en": "Reading",
         "pl": "Czytanie",
     }, 
+    "example" : {
+        "en": "Some examples of my bug-reports",
+        "pl": "Niektóre przykłady moich raportów o błędach znajdują się pod linkiem",
+    },
 }
 
