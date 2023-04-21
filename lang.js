@@ -17,8 +17,8 @@ const langArr = {
         but I have a superb desire to extend my already existing skills and\
         grow as a specialist in the software quality field.",
         "pl": "Cześć, jestem początkującym testerem oprogramowania. Szybko się uczę, mam dobre umiejętności komunikacyjne i prezentacyjne,\
-        jestem osobą o naturalnej ciekawości. Na chwilę obecną moje CV nie posiada dużej komercyjnej doświadczenia w tym obszarze, ale mam świetne chęci,\
-        aby rozwijać moje już istniejące umiejętności i stać się specjalistą w dziedzinie jakości oprogramowania.",
+        jestem osobą o naturalnej ciekawości. Na chwilę obecną moje CV nie posiada dużego komercyjnego doświadczenia w tym obszarze, ale mam dużą chęć,\
+        aby rozwijać moje już istniejące umiejętności i zostać specjalistą w dziedzinie jakości oprogramowania.",
     }, 
     "stwo" : {
         "en": "Technical skills",
@@ -30,7 +30,7 @@ const langArr = {
     }, 
     "teh_one" : {
         "en": "OS/Platforms: MS Windows, Mac, Unix, iOS, Android.",
-        "pl": "System operacyjny/platformy: MS Windows, Mac, Unix, iOS, Android.",
+        "pl": "Systemy operacyjne/platformy: MS Windows, Mac, Unix, iOS, Android.",
     }, 
     "teh_two" : {
         "en": "Languages: fundaments of HTML, CSS, JavaScript, SQL,\
@@ -49,7 +49,7 @@ const langArr = {
     "teh_five" : {
         "en": "Tools: postman, charles proxy, iMazing, Visual studio,\
         VSCode.",
-        "pl": "Narzędzia:postman, charles proxy, iMazing, Visual studio,\
+        "pl": "Narzędzia: postman, charles proxy, iMazing, Visual studio,\
         VSCode.",
     }, 
     "teh_six" : {
@@ -87,16 +87,16 @@ const langArr = {
         "en": "I have reported around 100+ bugs in accordance with\
         platform standards, link to example bug reports I added\
         below.",
-        "pl": "Zgłosiłem około 100+ błędów zgodnie ze standardami platformy, link do przykładowych raportów o błędach znajduje się poniżej.",
+        "pl": "Zgłosiłam powyżej 100 błędów zgodnie ze standardami platformy, link do przykładowych raportów o błędach znajduje się poniżej.",
     }, 
     "emp_four" : {
         "en": "Performed exploratory, usability & localization testing.",
-        "pl": "Wykonywałem testy eksploracyjne, użytecznościowe i lokalizacyjne.",
+        "pl": "Wykonywałam testy eksploracyjne, użytecznościowe i lokalizacyjne.",
     }, 
     "emp_five" : {
         "en": "Used asynchronous communication with platform test\
         leads.",
-        "pl": "Korzystałem z komunikacji asynchronicznej z liderami testów platformy.",
+        "pl": "Korzystałam z komunikacji asynchronicznej z liderami testów platformy.",
     }, 
     "pfour" : {
         "en": "Training and laboratory complex technician — Military\
@@ -132,19 +132,19 @@ const langArr = {
     "ed_one" : {
         "en": "2022 Master of science in physics & astronomy, State\
         University. Zhytomyr, Ukraine.",
-        "pl": "2022 Magister fizyki i astronomii, Stan\
-        Uniwersytet. Żytomierz, Ukraina.",
+        "pl": "2022 Magister fizyki i astronomii,\
+        Uniwersytet im. I. Franko. Żytomierz, Ukraina.",
     }, 
     "ed_two" : {
         "en": "2021 Bachelor of science in physics & education, State\
         University. Zhytomyr, Ukraine.",
-        "pl": "2021 Licencjat z fizyki i edukacji, stan\
-        Uniwersytet. Żytomierz, Ukraina.",
+        "pl": "2021 Licencjat z fizyki i edukacji,\
+        Uniwersytet im. I. Franko. Żytomierz, Ukraina.",
     }, 
     "ed-three" : {
         "en": "2019 Student exchange program, physics, Pomeranian\
         Academy. Słupsk, Poland.",
-        "pl": "2019 Program wymiany studenckiej, fizyka, pomorskie\
+        "pl": "2019 Program wymiany studenckiej, fizyka, Pomorska\
         Akademia. Słupsk, Polska.",
     }, 
     "sfive" : {
@@ -165,12 +165,12 @@ const langArr = {
     }, 
     "cou_one" : {
         "en": "2023 Relational Database Certification ",
-        "pl": "Certyfikacja relacyjnej bazy danych 2023",
+        "pl": "Certyfikacja 'Relacyjne bazy danych' 2023",
     }, 
     "cou_two" : {
         "en": "2022 Software testing basics, standards & tools Utest\
         Academy at utest.com",
-        "pl": "2022 Podstawy, standardy i narzędzia do testowania oprogramowania Utest\
+        "pl": "2022 Podstawy, standardy oraz narzędzia do testowania oprogramowania Utest\
         Akademia na utest.com",
     }, 
     "cou_three" : {
