@@ -163,6 +163,10 @@ const langArr = {
         "en": "Certificates and courses",
         "pl": "Certyfikaty i kursy",
     }, 
+    "nav_six" : {
+        "en": "Certificates and courses",
+        "pl": "Certyfikaty i kursy",
+    }, 
     "cou_one" : {
         "en": "2023 Relational Database Certification ",
         "pl": "Certyfikacja 'Relacyjne bazy danych' 2023",
