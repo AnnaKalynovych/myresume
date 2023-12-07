@@ -33,9 +33,9 @@ const langArr = {
         "pl": "Systemy operacyjne/platformy: MS Windows, Mac, Unix, iOS, Android.",
     }, 
     "teh_two" : {
-        "en": "Languages: fundaments of HTML, CSS, JavaScript, SQL,\
+        "en": "Languages: fundaments of HTML, CSS, JavaScript, Python, SQL,\
         Markup, XML, Bash",
-        "pl": "Języki: podstawy HTML, CSS, JavaScript, SQL,\
+        "pl": "Języki: podstawy HTML, CSS, JavaScript, Python, SQL,\
         Markup, XML, Bash",
     }, 
     "teh_three" : {
@@ -130,18 +130,22 @@ const langArr = {
         "pl": "Edukacja",
     }, 
     "ed_one" : {
+        "en": "2023 Student of the 'Vitelon College' majoring in 'Informatics'.Legnica. Poland.",
+        "pl": "2023 Student  w 'Collegium Witelona' na kierunku „Informatyka”. Legnica. Polska.",
+    }, 
+    "ed_two" : {
         "en": "2022 Master of science in physics & astronomy, State\
         University. Zhytomyr, Ukraine.",
         "pl": "2022 Magister fizyki i astronomii,\
         Uniwersytet im. I. Franko. Żytomierz, Ukraina.",
     }, 
-    "ed_two" : {
+    "ed_three" : {
         "en": "2021 Bachelor of science in physics & education, State\
         University. Zhytomyr, Ukraine.",
         "pl": "2021 Licencjat z fizyki i edukacji,\
         Uniwersytet im. I. Franko. Żytomierz, Ukraina.",
     }, 
-    "ed-three" : {
+    "ed-four" : {
         "en": "2019 Student exchange program, physics, Pomeranian\
         Academy. Słupsk, Poland.",
         "pl": "2019 Program wymiany studenckiej, fizyka, Pomorska\
@@ -203,6 +207,14 @@ const langArr = {
         kształt”, Poszukiwania naukowe młodych naukowców, Stan\
         Uniwersytet w Żytomierzu, Ukraina, certyfikat zbiór artykułów naukowych",
     }, 
+    "cou_seven" : {
+        "en": "2023 Pandas Certification ",
+        "pl": "Certyfikacja 'Pandas' 2023",
+    },
+    "cou_eight" : {
+        "en": "2023 Python Certification",
+        "pl": "Certyfikacja 'Python' 2023",
+    },
     "sseven" : {
         "en": "Projects",
         "pl": "Projekty",
