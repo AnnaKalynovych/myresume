@@ -1,8 +1,4 @@
 const langArr = {
-    "unit" :  {
-        "en": "Software QA Tester",
-        "pl": "Software QA Tester",
-    }, 
     "sone" : {
         "en": "Summary",
         "pl": "O mnie",
