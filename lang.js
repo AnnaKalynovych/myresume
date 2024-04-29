@@ -12,13 +12,21 @@ const langArr = {
         "pl": "O mnie",
     }, 
     "pone" :  {
-        "en": " Hey, I’m a Software QA beginner. A rapid learner with decent communication and presentation skills,\
-        a naturally curious person. At the moment in my resume there’s no huge commercial experience in this field, \
-        but I have a superb desire to extend my already existing skills and\
-        grow as a specialist in the software quality field.",
-        "pl": "Cześć, jestem początkującym testerem oprogramowania. Szybko się uczę, mam dobre umiejętności komunikacyjne i prezentacyjne,\
-        jestem osobą o naturalnej ciekawości. Na chwilę obecną moje CV nie posiada dużego komercyjnego doświadczenia w tym obszarze, ale mam dużą chęć,\
-        aby rozwijać moje już istniejące umiejętności i zostać specjalistą w dziedzinie jakości oprogramowania.",
+        "en": " I am a graduate in physics and computer science education, \
+        and currently, I am studying computer science at Collegium Witelona, \
+        where I am expanding my knowledge of programming, computer graphics, \
+        designing information systems, and data management. I have a good command \
+        of computer programs and experience in software testing. For over a year,\
+         I worked as a technician in a training and laboratory complex at a military \
+         institute, where I gained valuable skills in organizing work and teamwork. \
+         I am an independent person ready for the challenges presented by the field of \
+         information technology.",
+        "pl": " Jestem absolwentką kierunku nauczania fizyki i informatyki, a obecnie studiuję informatykę \
+        w Collegium Witelona, gdzie poszerzam wiedzę z programowania, grafiki komputerowej, projektowania systemów informatycznych \
+        oraz zarządzania danymi.\
+        Posiadam dobrą znajomość programów komputerowych oraz doświadczenie w testowaniu oprogramowania.\
+         Przez ponad rok pracowałam jako technik kompleksu szkoleniowego i laboratoryjnego w instytucie wojskowym, gdzie zdobyłam cenne umiejętności z zakresu organizacji pracy oraz pracy w zespole.\
+        Jestem osobą samodzielną i gotową na wyzwania, które stawia przed mną dziedzina technologii informatycznych.",
     }, 
     "stwo" : {
         "en": "Technical skills",
@@ -33,10 +41,8 @@ const langArr = {
         "pl": "Systemy operacyjne/platformy: MS Windows, Mac, Unix, iOS, Android.",
     }, 
     "teh_two" : {
-        "en": "Languages: fundaments of HTML, CSS, JavaScript, Python, SQL,\
-        Markup, XML, Bash",
-        "pl": "Języki: podstawy HTML, CSS, JavaScript, Python, SQL,\
-        Markup, XML, Bash",
+        "en": "Programming languages and web technologies: HTML, CSS, JavaScript, Python, Java, SQL, Markup, XML, Bash.",
+        "pl": "Języki programowania oraz technologie webowe: HTML, CSS, JavaScript, Python, Java, SQL, Markup, XML, Bash.",
     }, 
     "teh_three" : {
         "en": "Databases: MS Access, PostgreSQL, MySQL",
@@ -60,6 +66,10 @@ const langArr = {
         "en": "Browsers: Chromium Based, Firefox, Safari",
         "pl": "Przeglądarki: Chromium Based, Firefox, Safari",
     }, 
+    "teh_eight" : {
+        "en": "Proficiency in graphic tools: Photoshop (intermediate), Blender (intermediate), Figma (basic), 3Ds Max (basic).",
+        "pl": "Znajomość narzędzi graficznych:Photoshop (znajomość średniozaawansowana),Blender(średniozaawansowana), Figma (podstawowa), 3Ds Max (podstawowa).",
+    },
     "sthree" : {
         "en": "Employment History",
         "pl": "Historia zatrudnienia",
@@ -81,13 +91,13 @@ const langArr = {
     "emp_two" : {
         "en": "At the moment, I’m a bronze grade software tester on\
         the utest platform.",
-        "pl": "W chwili obecnej jestem testem oprogramowania na platformie utest na poziomie brązowym.",
+        "pl": "W chwili obecnej posiadam brązowy stopień jako tester oprogramowania na platformie utest.",
     },
      "emp_three" : {
         "en": "I have reported around 100+ bugs in accordance with\
         platform standards, link to example bug reports I added\
         below.",
-        "pl": "Zgłosiłam powyżej 100 błędów zgodnie ze standardami platformy, link do przykładowych raportów o błędach znajduje się poniżej.",
+        "pl": "Zgłosiłam ponad 100 raportów o błędach zgodnie ze standardami platformy. Przykłady moich raportów o błędach można znaleźć pod podanym poniżej linkiem.",    
     }, 
     "emp_four" : {
         "en": "Performed exploratory, usability & localization testing.",
@@ -160,8 +170,8 @@ const langArr = {
         "pl": "Dodatkowe informacje",
     }, 
     "psix" : {
-        "en": "Languages: Ukrainian, Polish, English.",
-        "pl": "Języki: ukraiński, polski, angielski.",
+        "en": "Language proficiency: Ukrainian (native), Polish (fluent), Russian (fluent), English (advanced).",
+        "pl": "Znajomość języków: ukraiński (język ojczysty), polski (biegły), rosyjski (biegły), angielski (zaawansowany). ",
     }, 
     "ssix" : {
         "en": "Certificates and courses",
