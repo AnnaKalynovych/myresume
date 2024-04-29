@@ -1,4 +1,8 @@
 const langArr = {
+    "unit" :  {
+        "en": "",
+        "pl": "",
+    }, 
     "sone" : {
         "en": "Summary",
         "pl": "O mnie",
@@ -104,6 +108,10 @@ const langArr = {
         leads.",
         "pl": "Korzystałam z komunikacji asynchronicznej z liderami testów platformy.",
     }, 
+    "example" : {
+        "en": "Some examples of my bug-reports",
+        "pl": "Niektóre przykłady moich raportów o błędach",
+    },
     "pfour" : {
         "en": "Training and laboratory complex technician — Military\
         Institute (May 2021 - July 2022) Zhytomyr, Ukraine",
@@ -250,10 +258,6 @@ const langArr = {
     "in_one" : {
         "en": "Reading",
         "pl": "Czytanie",
-    }, 
-    "example" : {
-        "en": "Some examples of my bug-reports",
-        "pl": "Niektóre przykłady moich raportów o błędach znajdują się pod linkiem",
-    },
+    }
 }
 
